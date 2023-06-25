@@ -15,6 +15,10 @@ console.log()
 
 <script src ='HTML'></script>
 
+- How do you use a script tag to write JavaScript directly in the HTML document?
+
+- How do you use a script tag to load an external JavaScript file?
+
 ## Notes
 
 All student notes should be written here.
