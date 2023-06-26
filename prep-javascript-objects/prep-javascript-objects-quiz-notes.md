@@ -5,9 +5,12 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What data types can object properties hold?
-  name and values
+
+name and values
+
 - Describe the syntax (structure) of object-literals in JavaScript.
-  Name and value separated by a colon. Name-value pairs are separated by commas. No comma follows the last name-value pair. Spaces and line breaks are not important. An object definition can span multiple lines.
+
+Name and value separated by a colon. Name-value pairs are separated by commas. No comma follows the last name-value pair. Spaces and line breaks are not important. An object definition can span multiple lines.
 
 ## Notes
 
