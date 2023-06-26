@@ -7,7 +7,7 @@ function isAdult(age) {
     console.log(true);
   }
 }
-isAdult.call(age);
+isAdult(age);
 
 const student1Score = 89;
 function didStudentPass(score) {
