@@ -5,13 +5,20 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is the principal use of arrays?
-  An array can hold many values under a single name, and you can access the values by referring to an index number.
+
+An array can hold many values under a single name, and you can access the values by referring to an index number.
+
 - Describe the syntax (structure) of array-literals in JavaScript.
-  const array_name = [item1, item2, ...];
+
+const array_name = [item1, item2, ...];
+
 - What number represents the **first** index of an array?
-  0
+
+0
+
 - How can you access the last element of an array?
-  .length - 1],
+
+.length - 1],
 
 ## Notes
 
