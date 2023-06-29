@@ -35,6 +35,7 @@ function gradeCalculator(score) {
     console.log('A++');
   }
 }
+
 gradeCalculator(student2Score);
 
 const season = 'spring';
