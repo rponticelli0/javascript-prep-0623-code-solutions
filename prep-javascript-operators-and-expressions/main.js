@@ -19,7 +19,7 @@ console.log('type of grade:', typeof grade);
 
 const firstName = 'Ryan';
 const lastName = 'Ponticelli';
-const fullName = `${firstName}${lastName}`;
+const fullName = firstName + ' ' + lastName;
 console.log('value of fullName:', fullName);
 console.log('type of fullName:', typeof fullName);
 
@@ -28,15 +28,13 @@ const isAcidic = pH < 7;
 console.log('value of isAcidic:', isAcidic);
 console.log('type of isAcidic:', typeof isAcidic);
 
-const numberOfSoldiers = {
-  key: 100,
-};
-const isSparta = {
-  key: 300,
-};
-console.log('value of isSparta:', isSparta === numberOfSoldiers);
+const numberOfSoldiers = 100;
+const isSparta = numberOfSoldiers === 300;
+
+console.log('value of isSparta:', isSparta);
 console.log('type of isSparta:', typeof isSparta);
 
-let nickname = 'Ryan Ponticelli';
-console.log('value of nickname:', (nickname += ' is the Goat'));
+let nickname = fullName;
+nickname += 'is the Goat!';
+console.log('value of nickname:', nickname);
 console.log('type of nickname:', typeof nickname);

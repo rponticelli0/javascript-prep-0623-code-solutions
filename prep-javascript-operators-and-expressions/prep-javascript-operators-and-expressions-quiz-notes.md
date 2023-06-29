@@ -5,15 +5,24 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What data type is returned by an arithmetic operation?
-  modulus
+
+modulus
+
 - What is string concatenation?
-  appending one or more string to the end of another string
+
+appending one or more string to the end of another string
+
 - What purpose(s) does the `+` plus operator serve in JavaScript?
-  used to add
+
+used to add
+
 - What data type is returned by comparing two values (`<`, `>`, `===`, etc)?
-  comparison
+
+comparison
+
 - What does the `+=` "plus-equals" operator do?
-  performs addition on the two operands and assigns the results to the left operand.
+
+performs addition on the two operands and assigns the results to the left operand.
 
 ## Notes
 
