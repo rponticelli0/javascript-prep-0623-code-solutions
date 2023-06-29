@@ -8,9 +8,7 @@ function whileLoop1() {
   }
   return array;
 }
-
 console.log('whileloop1 output', whileLoop1());
-
 function whileLoop2() {
   let i = 0;
   const array = [];
@@ -20,9 +18,7 @@ function whileLoop2() {
   }
   return array;
 }
-
 console.log('whileloop1 output', whileLoop2());
-
 function forLoop1() {
   const array = [];
   for (let i = 0; i < 10; i++) {
@@ -30,16 +26,37 @@ function forLoop1() {
   }
   return array;
 }
-
 console.log('forLoop output', forLoop1());
-
 function forLoop2() {
-  const array = [];
   for (let i = 100; i >= 0; i--) {
-    console.log('Time till explosion', i);
-    array.push(i);
+    console.log('Time till explosion ' + i + '!');
+  }
+}
+forLoop2();
+
+function forInLoop1(object) {
+  const array = [];
+  for (const key in object) {
+    array.push(key);
   }
   return array;
 }
 
-console.log(forLoop2);
+const object = {
+  name: 'Ada LoveLace',
+  age: 'classic',
+  hobby: 'computation',
+  invention: 'analytical engine',
+};
+
+console.log('for in loop 1 output', forInLoop1(object));
+
+function forInLoop2(object) {
+  const array = [];
+  for (const key in object) {
+    array.push(object[key]);
+  }
+  return array;
+}
+
+console.log('for in loop 2 output', forInLoop2(object));
